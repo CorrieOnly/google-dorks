@@ -1,0 +1,45 @@
++intext:"webalizer" +intext:"Total Usernames" +intext:"Usage Statistics for"
+intext:"SteamUserPassphrase=" intext:"SteamAppUser=" -"username" -"user"
+inurl:"/root/etc/passwd" intext:"home/*:"
+intext:"root:x:0:0:root:/root:/bin/bash" inurl:*=/etc/passwd
+inurl:/_layouts/mobile/view.aspx?List=
+intitle:index.of .sh_history
+intitle:index.of .bash_history
+inurl:admin inurl:userlist
+inurl:admin filetype:asp inurl:userlist
+"index of" / lck
+index.of perform.ini
+inurl:php inurl:hlstats intext:"Server Username"
+filetype:reg reg HKEY_CURRENT_USER username
+filetype:reg reg +intext:"internet account manager"
+filetype:log username putty
+filetype:conf inurl:proftpd.conf -sample
+inurl:root.asp?acs=anon
+site:extremetracking.com inurl:"login="
+inurl:/profile.php?lookup=1
+"authentication failure; logname=" ext:log
+"username.xlsx" ext:xlsx
+intitle:index.of "users.db"
+intitle:"index of" service.grp
+allintext:username filetype:log
+intitle:"index of" "users.sql"
+intitle:"index of" "/ftpusers"
+intitle:"index of" "tomcat-users.xml"
+"index of" "users.frm"
+File contains Sensitive Information
+"CREATE ROLE" + "ENCRYPTED PASSWORD" ext:sql | ext:txt | ext:ini -git -gitlab
+intitle:"index of" "/parameters.yml*"
+jdbc:mysql://localhost:3306/ + username + password ext:yml | ext:java -git -gitlab
+inurl:user intitle:index of ext:sql | xls | xml | json | csv
+filetype:csv intext:"Secret access key"
+"DefaultPassword" ext:reg "[HKEY_LOCAL_MACHINESOFTWAREMicrosoftWindows NTCurrentVersionWinlogon]"
+intitle:"index of" "filezilla.xml"
+intitle:"index of" "sitemanager.xml" | "recentservers.xml"
+intitle:"index of" "password.yml
+jdbc:sqlserver://localhost:1433 + username + password ext:yml | ext:java
+"'dsn: mysql:host=localhost;dbname=" ext:yml | ext:txt "password:"
+intitle:"index of" "credentials.xml" | "credentials.inc" | "credentials.txt"
+intitle:"index of" "db.properties" | "db.properties.BAK"
+intitle:"index of" "contacts.txt"
+intext:"-----BEGIN CERTIFICATE-----" ext:txt
+intitle:"index of" "/usernames"

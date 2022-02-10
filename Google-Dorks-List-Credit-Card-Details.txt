@@ -1,0 +1,19 @@
+inurl:”.php?id=” intext:”Chekout”
+
+inurl:”.php?id=” intext:”/Buy now/”
+
+inurl:”.php?id=” intext:”/Payment Successful/”
+
+inurl:”.php?id=” intext:”/Delivery address/”
+
+inurl:”.php?id=” intext:”/Payment method/”
+
+inurl:”.php?id=” intext:”/store/”
+
+inurl:”.php?id=” intext:”/Delivery time/”
+
+inurl:”.php?id=” intext:”/add to kart/”
+
+inurl:”.php?id=” intext:”/Proceed to payment/”
+
+inurl:”.php?id=” intext:”/Keep shoping/”
